@@ -22,3 +22,11 @@ https://leetcode.com/problems/two-sum/description/
 ```
 This practice may help you to learn basic data type, such array.
 ```
+
+- 003
+
+https://leetcode.com/problems/add-two-numbers/description/
+
+```
+Learn how to use class and list.
+```
