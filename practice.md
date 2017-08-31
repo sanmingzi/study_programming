@@ -30,3 +30,11 @@ https://leetcode.com/problems/add-two-numbers/description/
 ```
 Learn how to use class and list.
 ```
+- 004
+
+https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
+
+```
+We should pay attention to performance at this problem.
+I deal with this problem with dynamic planning.
+```
