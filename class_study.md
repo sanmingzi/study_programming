@@ -164,16 +164,80 @@ public class Singleton
 
 ## Inherit
 
-```
-permission: public private protected internal
-```
+https://docs.microsoft.com/zh-cn/dotnet/csharp/programming-guide/classes-and-structs/inheritance
 
-## Overwrite
+### Virtual
 
 ```
-virtual override abstract
+public class Bird
+{
+  public virtual void Eat()
+  {
+    Console.WriteLine("I am a bird, I like eat worm.");
+  }
+}
+
+public  class Magpie : Bird
+{
+  public override void Eat()
+  {
+    Console.WriteLine("I am a magpie, I like eat worm.");
+  }
+}
 ```
 
-## Interface
+### Abstract
+
+```
+abstract class ShapesClass
+{
+    abstract public int Area();
+}
+
+class Square : ShapesClass
+{
+    int side = 0;
+
+    public override int Area()
+    {
+        return side * side;
+    }
+}
+```
+
+### Override
+
+
+
+### Interface
+
+https://docs.microsoft.com/zh-cn/dotnet/csharp/programming-guide/interfaces/
+
+```
+interface IEquatable<T>
+{
+    bool Equals(T obj);
+}
+
+public class Car : IEquatable<Car>
+{
+    public string Make {get; set;}
+    public string Model { get; set; }
+    public string Year { get; set; }
+
+    // Implementation of IEquatable<T> interface
+    public bool Equals(Car car)
+    {
+        if (this.Make == car.Make &&
+            this.Model == car.Model &&
+            this.Year == car.Year)
+        {
+            return true;
+        }
+        else
+            return false;
+    }
+}
+```
 
 ## Delete
