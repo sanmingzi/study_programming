@@ -46,3 +46,11 @@ https://leetcode.com/problems/longest-palindromic-substring/description/
 ```
 Longest palindromic substring, a classics algorithm.
 ```
+
+- 006
+
+https://leetcode.com/problems/zigzag-conversion/description/
+
+```
+Learn how to use array.
+```
