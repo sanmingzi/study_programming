@@ -38,3 +38,11 @@ https://leetcode.com/problems/longest-substring-without-repeating-characters/des
 We should pay attention to performance at this problem.
 I deal with this problem with dynamic planning.
 ```
+
+- 005
+
+https://leetcode.com/problems/longest-palindromic-substring/description/
+
+```
+Longest palindromic substring, a classics algorithm.
+```
