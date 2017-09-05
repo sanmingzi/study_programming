@@ -191,7 +191,7 @@ public  class Magpie : Bird
 ```
 abstract class ShapesClass
 {
-    abstract public int Area();
+    public abstract int Area();
 }
 
 class Square : ShapesClass
@@ -204,10 +204,6 @@ class Square : ShapesClass
     }
 }
 ```
-
-### Override
-
-
 
 ### Interface
 
@@ -239,5 +235,11 @@ public class Car : IEquatable<Car>
     }
 }
 ```
+
+### Override
+
+- We have to override the abstract method.
+- We have to overwrite the interface method.
+- I do not understand what time to use interface or abstract class.
 
 ## Delete
