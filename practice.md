@@ -54,3 +54,11 @@ https://leetcode.com/problems/zigzag-conversion/description/
 ```
 Learn how to use array.
 ```
+
+- 007
+
+https://leetcode.com/problems/reverse-integer/description/
+
+```
+Integer reverse and integer range.
+```
