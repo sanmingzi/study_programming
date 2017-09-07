@@ -1,4 +1,9 @@
-# pratices
+# Pratices
+
+## Learn how to use array.
+
+- [6. ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/description/)
+- [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/)
 
 ## 2017-08-29
 
@@ -47,18 +52,8 @@ https://leetcode.com/problems/longest-palindromic-substring/description/
 Longest palindromic substring, a classics algorithm.
 ```
 
-- 006
-
-https://leetcode.com/problems/zigzag-conversion/description/
-
-```
-Learn how to use array.
-```
-
 - 007
 
 https://leetcode.com/problems/reverse-integer/description/
 
-```
 Integer reverse and integer range.
-```
