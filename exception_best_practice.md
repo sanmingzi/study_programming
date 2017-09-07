@@ -6,22 +6,16 @@
 
 ### Pre-checking
 
-```
 Check type, format, range early.
-```
 
 ### Do not trust external data
 
-```
-Data from registry, database, disk, socket, file is not reliable.
+Data from registry, database, disk, socket, file is not reliable. <br/>
 We can not trust the data from config file, maybe someone would edit it and corrupt it.
-```
 
 ### Reliable devices
 
-```
 Video, mouse, keyboard
-```
 
 ### Write operation fail
 
@@ -30,41 +24,32 @@ Video, mouse, keyboard
 - Not enough space
 - Device has a physical fault
 
-```
 Both read and write have the same issues above.
-```
 
 ## Code safely
 
 ### Don't throw new Exception()
 
-Derive you own exception class from ApplicationException.<br/>
+Derive you own exception class from ApplicationException. <br/>
 You can set a specialized exception handler for exceptions throw by framework and another for exceptions thrown by yourself.
 
 ### Don't put important exception information on the message field
 
-```
 Create fields to store the exception information, not on the message.
-```
 
 ### Put a single catch(Exception ex) per thread
 
-```
-Generic exception handling should be done in a central point in your application. Each thread needs a separate try/catch block.
-```
+Generic exception handling should be done in a central point in your application. <br/>
+Each thread needs a separate try/catch block.
 
 ### Generic exception caught should be published
 
-```
 Log generic exception and only one time.
-```
 
 ### Log stack trace of exception
 
-```
-Exception.message
-Exception.stack_trace, this is priceless.
-```
+- error message
+- stack trace(priceless)
 
 ### Catch the specific exception
 
@@ -94,17 +79,13 @@ public class GenericLibrary
 }
 ```
 
-```
-This code is not good, if the exception is "OutOfMemoryException", it return 'Invalid number', although the userInput is valid.
+This code is not good, if the exception is "OutOfMemoryException", it return 'Invalid number', although the userInput is valid. <br/>
 We should only handle the exception we know how to handle it.
-```
 
 ### Finally block
 
-```
-Cleanup code, such as closing streams, restoring state.
+Cleanup code, such as closing streams, restoring state. <br/>
 This code in finally block will run after the function return.
-```
 
 ```
 string ReadTempFile(string FileName)
@@ -157,7 +138,7 @@ using (TextWriter w = File.CreateText("log.txt"))
 }
 ```
 
-The 'using' is same as try/finally, it will clean up the object.
+The 'using' is same as try/finally, it will clean up the object. <br/>
 We should use 'using' everywhere to prevent resources leaks even on the presence of an exception.
 
 ### Don't return special values on error conditions
@@ -176,11 +157,12 @@ public int divide(int x, int y)
 
 ### Return null to indicate absence of a resource
 
-Microsoft recommends that you should use return special values on extremely common situations. OK, I just wrote the opposite, but life is easier when most APIs are consistent.
+Microsoft recommends that you should use return special values on extremely common situations. <br/>
+OK, I just wrote the opposite, but life is easier when most APIs are consistent.
 
 ### Don't use exception handling as means of returning information from a method
 
-Exceptions are slow.
+Exceptions are slow. <br/>
 If you are really in need to return data as an exception, probably your method is doing too much and needs to be split.
 
 ### Don't clear the stack traces when re-throwing an exception
