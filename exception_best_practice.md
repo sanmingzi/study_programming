@@ -38,10 +38,8 @@ Both read and write have the same issues above.
 
 ### Don't throw new Exception()
 
-```
 Derive you own exception class from ApplicationException.
 You can set a specialized exception handler for exceptions throw by framework and another for exceptions thrown by yourself.
-```
 
 ### Don't put important exception information on the message field
 
@@ -147,3 +145,61 @@ string ReadTempFile(string FileName)
     }
 }
 ```
+
+### Use 'using' everywhere
+
+[Use 'using'](https://www.codeproject.com/Articles/6564/Understanding-the-using-statement-in-C)
+
+```
+using (TextWriter w = File.CreateText("log.txt"))
+{
+    w.WriteLine("This is line one");
+}
+```
+
+The 'using' is same as try/finally, it will clean up the object.
+We should use 'using' everywhere to prevent resources leaks even on the presence of an exception.
+
+### Don't return special values on error conditions
+
+- Exception make the common case faster.
+- Special value can be ignored.
+- Special value don't carry stack traces.
+- There is no suitable value to return.
+
+```
+public int divide(int x, int y)
+{
+    return x / y;
+}
+```
+
+### Return null to indicate absence of a resource
+
+Microsoft recommends that you should use return special values on extremely common situations. OK, I just wrote the opposite, but life is easier when most APIs are consistent.
+
+### Don't use exception handling as means of returning information from a method
+
+Exceptions are slow.
+If you are really in need to return data as an exception, probably your method is doing too much and needs to be split.
+
+### Don't clear the stack traces when re-throwing an exception
+
+```
+try
+{
+    // Some code that throws an exception
+}
+catch (Exception ex)
+{
+    // some code that handles the exception
+    throw;
+}
+```
+
+### Don't reinvent the wheel
+
+There maybe some good framework of handling exception.
+
+- Exception Management Application Block
+- Microsoft Enterprise Instrumentation Framework
