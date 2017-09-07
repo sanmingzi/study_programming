@@ -38,7 +38,7 @@ Both read and write have the same issues above.
 
 ### Don't throw new Exception()
 
-Derive you own exception class from ApplicationException.
+Derive you own exception class from ApplicationException.<br/>
 You can set a specialized exception handler for exceptions throw by framework and another for exceptions thrown by yourself.
 
 ### Don't put important exception information on the message field
