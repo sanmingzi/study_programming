@@ -178,23 +178,6 @@ http://www.cnblogs.com/frankfang/archive/2011/08/03/2125663.html
 
 http://www.cnblogs.com/jujusharp/archive/2011/08/04/C-Sharp-And-Closure.html
 
-### exception
-
-### 存儲管理
-
-```
-存儲管理
-靜態分配/棧分配/堆分配
-對象週期
-垃圾回收
-```
-
-### using namespace
-
-### 並發
-
-### async/await
-
 ### file
 
 ### event
