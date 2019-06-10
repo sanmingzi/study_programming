@@ -13,6 +13,8 @@ regexp.exec("aaaaaaabcccccc");
 
 ## 特殊字符
 
+<table>
+</table>
  字符 | 含义 
  ---- | ----
 \ | aaa 
