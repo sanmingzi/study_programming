@@ -66,8 +66,12 @@ regexp.exec("aaaaaaabcccccc");
     反向字符集，不匹配方括号中的任意字符。
   </td></tr>
   <tr><td>[\b]</td><td>
-    匹配退格键。
+    匹配一个退格。
   </td></tr>
+  <tr><td>\b</td><td>
+    匹配一个词的边界，
+  </td></tr>
+
 
 </table>
  
