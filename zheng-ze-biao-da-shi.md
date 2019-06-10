@@ -33,6 +33,10 @@ regexp.exec("aaaaaaabcccccc");
   <tr><td>+</td><td>
     匹配前一个表达式1次或者多次，等价于{1,}
   </td></tr>
+  <tr><td>?</td><td>
+    匹配前一个表达式0次或者1次，等价于{0, 1}
+  </td></tr>
+
 </table>
  
 
