@@ -44,7 +44,7 @@ regexp.exec("aaaaaaabcccccc");
     先行断言，匹配x仅仅当x后面紧跟y。<br/>
     /Jack(?=Sprat|Frost)/匹配‘Jack’仅仅当它后面跟着'Sprat'或者是‘Frost’。但是‘Sprat’和‘Frost’都不是匹配结果的一部分。
   </td></tr>
-  <tr><td>.</td><td>
+  <tr><td>(?=>y)x</td><td>
     匹配除换行符之外的任意其他字符
   </td></tr>
 </table>
