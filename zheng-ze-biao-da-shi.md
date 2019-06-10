@@ -65,6 +65,10 @@ regexp.exec("aaaaaaabcccccc");
   <tr><td>[^xyz]</td><td>
     反向字符集，不匹配方括号中的任意字符。
   </td></tr>
+  <tr><td>[\b]</td><td>
+    匹配退格键。
+  </td></tr>
+
 </table>
  
 
