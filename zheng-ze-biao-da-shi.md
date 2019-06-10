@@ -15,7 +15,7 @@ regexp.exec("aaaaaaabcccccc");
 
  字符 | 含义 
  ---- | ----
- 
+\ | aaa 
 
 
 
