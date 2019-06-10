@@ -4,7 +4,7 @@
 
 ## 简单模式
 
-```
+```javascript
 var regexp = new RegExp("abc");
 regexp.match("aaaaaaabcccccc");
 ```
