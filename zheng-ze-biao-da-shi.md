@@ -71,6 +71,10 @@ regexp.exec("aaaaaaabcccccc");
   <tr><td>\b</td><td>
     匹配一个词的边界，表示词的开头或者是结尾。
   </td></tr>
+  <tr><td>\B</td><td>
+    # TODO
+  </td></tr>
+
 
 
 </table>
