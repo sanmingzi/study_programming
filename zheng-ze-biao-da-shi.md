@@ -48,7 +48,7 @@ regexp.exec("aaaaaaabcccccc");
     后行断言，匹配x仅仅当x前面是y。
   </td></tr>
   <tr><td>x(?!y)</td><td>
-    匹配除换行符之外的任意其他字符
+    正向否定查找，
   </td></tr>
 </table>
  
