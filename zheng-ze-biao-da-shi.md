@@ -78,6 +78,10 @@ regexp.exec("aaaaaaabcccccc");
     如果x是A-Z之间的字符，匹配字符串中的一个控制符。<br/>
     /\cM/匹配字符串中的control-M
   </td></tr>
+  <tr><td>\d</td><td>
+    匹配一个数字。
+  </td></tr>
+
 
 </table>
  
