@@ -51,7 +51,7 @@ regexp.exec("aaaaaaabcccccc");
     正向否定查找，匹配x仅仅当后面跟的不是y。
   </td></tr>
   <tr><td>x|y</td><td>
-    匹配x或者y
+    匹配x或者y。
   </td></tr>
 
 </table>
