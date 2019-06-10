@@ -74,9 +74,6 @@ regexp.exec("aaaaaaabcccccc");
   <tr><td>\B</td><td>
     # TODO
   </td></tr>
-
-
-
 </table>
  
 
