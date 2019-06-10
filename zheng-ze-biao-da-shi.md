@@ -37,7 +37,7 @@ regexp.exec("aaaaaaabcccccc");
     n是一个正整数，匹配前一个字符恰好发生了n次
   </td></tr>
   <tr><td>{n,m}</td><td>
-    n和m都是整数，匹配除换行符之外的任意其他字符
+    n和m都是整数，匹配前一个字符至少发生n次，至多m次
   </td></tr>
 
 
