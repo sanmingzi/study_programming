@@ -74,6 +74,10 @@ regexp.exec("aaaaaaabcccccc");
   <tr><td>\B</td><td>
     TODO
   </td></tr>
+  <tr><td>x|y</td><td>
+    匹配x或者y。
+  </td></tr>
+
 </table>
  
 
