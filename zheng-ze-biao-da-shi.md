@@ -87,6 +87,13 @@ regexp.exec("aaaaaaabcccccc");
   <tr><td>\f</td><td>
     匹配一个换页符。
   </td></tr>
+  <tr><td>\n</td><td>
+    匹配一个换行符。
+  </td></tr>
+
+
+
+
 
 
 
