@@ -13,6 +13,7 @@ regexp.exec("aaaaaaabcccccc");
 
 ## 特殊字符
 
+字符 | 含义
 
 
 \bhi\b
