@@ -47,6 +47,10 @@ regexp.exec("aaaaaaabcccccc");
   <tr><td>(?<=y)x</td><td>
     后行断言，匹配x仅仅当x前面是y。
   </td></tr>
+  <tr><td>.</td><td>
+    匹配除换行符之外的任意其他字符
+  </td></tr>
+
 </table>
  
 
