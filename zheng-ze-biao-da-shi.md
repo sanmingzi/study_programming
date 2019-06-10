@@ -41,7 +41,8 @@ regexp.exec("aaaaaaabcccccc");
     匹配除换行符之外的任意其他字符
   </td></tr>
   <tr><td>x(?=y)</td><td>
-    匹配x仅仅当x后面紧跟y。<br/>
+    先行断言，匹配x仅仅当x后面紧跟y。<br/>
+    
   </td></tr>
 </table>
  
