@@ -4,6 +4,10 @@
 
 ## 简单模式
 
+```
+var regexp = new RegExp()
+```
+
 ## 特殊字符
 
 
