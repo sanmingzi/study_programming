@@ -2,7 +2,11 @@
 
 [Javascript正则表达式](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide/Regular_Expressions)
 
+## 简单模式
+
 ## 特殊字符
+
+
 
 \bhi\b
 \b 是元字符，metacharacter，代表著單詞的開頭或結尾
