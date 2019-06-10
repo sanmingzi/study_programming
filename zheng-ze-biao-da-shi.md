@@ -14,6 +14,10 @@ regexp.exec("aaaaaaabcccccc");
 ## 特殊字符
 
 <table>
+  <tr></tr>
+    <td>字符</td>
+    <td>含义</td>
+  <tr></tr>
 </table>
  字符 | 含义 
  ---- | ----
