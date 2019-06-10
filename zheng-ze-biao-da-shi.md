@@ -33,6 +33,9 @@ regexp.exec("aaaaaaabcccccc");
   <tr><td>+</td><td>
     匹配前一个表达式1次或者多次，等价于{1,}
   </td></tr>
+  <tr><td>{n}</td><td>
+    匹配除换行符之外的任意其他字符
+  </td></tr>
   <tr><td>?</td><td>
     匹配前一个表达式0次或者1次，等价于{0,1}<br/>
     如果紧跟在任何量词* + ? {}后面，将会使量词变为非贪婪的（匹配尽量少的字符）
@@ -53,6 +56,8 @@ regexp.exec("aaaaaaabcccccc");
   <tr><td>x|y</td><td>
     匹配x或者y。
   </td></tr>
+  
+
 </table>
  
 
