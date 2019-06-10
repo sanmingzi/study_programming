@@ -84,6 +84,12 @@ regexp.exec("aaaaaaabcccccc");
   <tr><td>\D</td><td>
     匹配一个非数字，等价于[^0-9]。
   </td></tr>
+  <tr><td>\f</td><td>
+    匹配一个换页符。
+  </td></tr>
+
+
+
 
 
 
