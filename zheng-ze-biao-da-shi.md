@@ -5,7 +5,8 @@
 ## 简单模式
 
 ```
-var regexp = new RegExp()
+var regexp = new RegExp("abc");
+regexp.match("aaaaaaabcccccc");
 ```
 
 ## 特殊字符
