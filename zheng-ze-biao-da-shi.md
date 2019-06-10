@@ -79,7 +79,7 @@ regexp.exec("aaaaaaabcccccc");
     /\cM/匹配字符串中的control-M
   </td></tr>
   <tr><td>\d</td><td>
-    匹配一个数字。
+    匹配一个数字，等价于[0-9]
   </td></tr>
 
 
