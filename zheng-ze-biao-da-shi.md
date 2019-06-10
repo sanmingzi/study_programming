@@ -27,8 +27,8 @@ regexp.exec("aaaaaaabcccccc");
   <tr><td>$</td><td>
     匹配输入的结束
   </td></tr>
-  <tr><td>^</td><td>
-    匹配输入的开始
+  <tr><td>*</td><td>
+    匹配前一个表达式0次或者多次
   </td></tr>
 </table>
  
