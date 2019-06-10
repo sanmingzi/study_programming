@@ -18,7 +18,7 @@ regexp.exec("aaaaaaabcccccc");
     <td>字符</td>
     <td>含义</td>
   <tr>
-    <td></td>
+    <td>\</td>
     <td></td>
   </tr>
 </table>
