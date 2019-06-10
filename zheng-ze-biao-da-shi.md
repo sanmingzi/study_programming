@@ -90,16 +90,9 @@ regexp.exec("aaaaaaabcccccc");
   <tr><td>\n</td><td>
     匹配一个换行符。
   </td></tr>
-
-
-
-
-
-
-
-
-
-
+  <tr><td>\r</td><td>
+    匹配一个回车符。
+  </td></tr>
 </table>
  
 
