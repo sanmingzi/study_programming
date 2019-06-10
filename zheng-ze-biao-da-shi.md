@@ -22,8 +22,7 @@ regexp.exec("aaaaaaabcccccc");
       将其后的字符转义为字面量。<br/>
       例如模式/a*/可以匹配0个或多个a，而模式/a\*/将*的特殊性移除，可以匹配"a*"这样的字符串
     </td></tr>
-  <tr>
-    <td></td>
+  <tr><td></td>
     <td></td>
   </tr>
 </table>
