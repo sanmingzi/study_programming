@@ -27,6 +27,10 @@ regexp.exec("aaaaaaabcccccc");
   <tr><td>$</td><td>
     匹配输入的结束
   </td></tr>
+  <tr><td>^</td><td>
+    匹配输入的开始
+  </td></tr>
+
 </table>
  
 
