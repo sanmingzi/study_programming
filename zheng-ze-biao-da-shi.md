@@ -60,7 +60,7 @@ regexp.exec("aaaaaaabcccccc");
     匹配x或者y。
   </td></tr>
   <tr><td>[xyz]</td><td>
-    字符集合
+    字符集合，匹配方括号中的任意字符，（* .）
   </td></tr>
 
 
