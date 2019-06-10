@@ -23,9 +23,6 @@ regexp.exec("aaaaaaabcccccc");
   </tr>
 </table>
  
- 字符 | 含义 
- ---- | ----
-\ | aaa 
 
 
 
