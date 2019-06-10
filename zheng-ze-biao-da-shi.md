@@ -4,6 +4,8 @@
 
 ## 简单模式
 
+无特殊字符的字符串匹配
+
 ```javascript
 var regexp = new RegExp("abc");
 regexp.exec("aaaaaaabcccccc");
