@@ -81,6 +81,10 @@ regexp.exec("aaaaaaabcccccc");
   <tr><td>\d</td><td>
     匹配一个数字，等价于[0-9]
   </td></tr>
+  <tr><td>\D</td><td>
+    匹配一个非数字，等价于[^0-9]。
+  </td></tr>
+
 
 
 </table>
