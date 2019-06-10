@@ -20,8 +20,7 @@ regexp.exec("aaaaaaabcccccc");
   <tr>
     <td>\</td>
     <td>
-      zzzzzzzzzz
-      aaaaaaaaa
+      将其后的字符转义为字面量。
     </td>
   </tr>
 </table>
