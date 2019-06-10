@@ -6,7 +6,7 @@
 
 ```javascript
 var regexp = new RegExp("abc");
-regexp.match("aaaaaaabcccccc");
+regexp.exec("aaaaaaabcccccc");
 ```
 
 ## 特殊字符
