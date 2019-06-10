@@ -76,7 +76,7 @@ regexp.exec("aaaaaaabcccccc");
   </td></tr>
   <tr><td>\cX</td><td>
     如果x是A-Z之间的字符，匹配字符串中的一个控制符。<br/>
-    
+    /\cM/匹配字符串中的control-M
   </td></tr>
 
 </table>
