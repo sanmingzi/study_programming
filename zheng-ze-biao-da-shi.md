@@ -69,7 +69,7 @@ regexp.exec("aaaaaaabcccccc");
     匹配一个退格。
   </td></tr>
   <tr><td>\b</td><td>
-    匹配一个词的边界，
+    匹配一个词的边界，表示词的开头或者是结尾。
   </td></tr>
 
 
