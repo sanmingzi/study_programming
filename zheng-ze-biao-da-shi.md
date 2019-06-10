@@ -62,8 +62,8 @@ regexp.exec("aaaaaaabcccccc");
   <tr><td>[xyz]</td><td>
     字符集合，匹配方括号中的任意字符，(. *)这样的特殊字符在方括号中不需要转义。我们可以使用破折号(-)来表示范围。例如，[a-z]。
   </td></tr>
-  <tr><td>x|y</td><td>
-    匹配x或者y。
+  <tr><td>[^xyz]</td><td>
+    反向字符集，不匹配方括号中的任意字符。
   </td></tr>
 
 
