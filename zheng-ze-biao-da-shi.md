@@ -75,7 +75,8 @@ regexp.exec("aaaaaaabcccccc");
     TODO
   </td></tr>
   <tr><td>\cX</td><td>
-    匹配x或者y。
+    如果x是A-Z之间的字符，匹配字符串中的一个控制符。<br/>
+    
   </td></tr>
 
 </table>
