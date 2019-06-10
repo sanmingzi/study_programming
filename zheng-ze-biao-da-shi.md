@@ -53,7 +53,6 @@ regexp.exec("aaaaaaabcccccc");
   <tr><td>x|y</td><td>
     匹配x或者y。
   </td></tr>
-
 </table>
  
 
