@@ -97,7 +97,7 @@ regexp.exec("aaaaaaabcccccc");
     匹配一个空白符，包括空格，制表位，换页符，换行符。
   </td></tr>
   <tr><td>\S</td><td>
-    匹配一个回车符。
+    匹配一个非空白字符。
   </td></tr>
 
 </table>
