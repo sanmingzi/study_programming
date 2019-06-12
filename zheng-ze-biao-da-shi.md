@@ -50,6 +50,10 @@ regexp.exec("aaaaaaabcccccc");
     匹配x并且记住匹配项，括号()被称为捕获括号。<br/>
     模式/(foo) (rar) \1 \2/，其中的\1就表示第1个被捕获并且记住的匹配单词"foo"，\2表示第2个被捕获并且记住的匹配单词"rar"。\1 \2 .. \2这种写法使用在正则表达式的匹配环节。$1 $2 .. $n这种写法是用在正则表达式的替换(replace)环节。例如："mike jordan".replace(/(\w+)\s(\w+)/, "$2 $1")
   </td></tr>
+  <tr><td>.</td><td>
+    匹配除换行符之外的任意其他字符
+  </td></tr>
+
   <tr><td>x(?=y)</td><td>
     先行断言，匹配x仅仅当x后面紧跟y。<br/>
     /Jack(?=Sprat|Frost)/匹配‘Jack’仅仅当它后面跟着'Sprat'或者是‘Frost’。但是‘Sprat’和‘Frost’都不是匹配结果的一部分。
