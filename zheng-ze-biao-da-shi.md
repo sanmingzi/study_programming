@@ -93,6 +93,9 @@ regexp.exec("aaaaaaabcccccc");
   <tr><td>\r</td><td>
     匹配一个回车符。
   </td></tr>
+  <tr><td>\s</td><td>
+    匹配一个空白符。
+  </td></tr>
 </table>
  
 
