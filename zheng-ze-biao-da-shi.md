@@ -54,7 +54,6 @@ regexp.exec("aaaaaaabcccccc");
     匹配x但是不记住匹配项，这种叫做非捕获括号。<br/>
     "foofoofoo".match(/(?:foo)+/);
     "fooooofooo".match(/foo+/);
-    /(?:foo)+/，这个可以匹配foofoofoo
   </td></tr>
   <tr><td>x(?=y)</td><td>
     先行断言，匹配x仅仅当x后面紧跟y。<br/>
