@@ -99,7 +99,12 @@ regexp.exec("aaaaaaabcccccc");
   <tr><td>\S</td><td>
     匹配一个非空白字符。
   </td></tr>
-
+  <tr><td>\w</td><td>
+    匹配一个单字字符（字母，数字，下划线）。
+  </td></tr>
+  <tr><td>\W</td><td>
+    匹配一个非单字字符，等价于[^a-zA-Z0-9_]。
+  </td></tr>
 </table>
  
 
