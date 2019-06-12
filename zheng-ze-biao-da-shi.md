@@ -65,9 +65,6 @@ regexp.exec("aaaaaaabcccccc");
   <tr><td>[^xyz]</td><td>
     反向字符集，不匹配方括号中的任意字符。
   </td></tr>
-  <tr><td>[\b]</td><td>
-    匹配一个退格。
-  </td></tr>
   <tr><td>\b</td><td>
     匹配一个词的边界，表示词的开头或者是结尾。
   </td></tr>
