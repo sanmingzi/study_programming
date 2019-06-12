@@ -105,9 +105,6 @@ regexp.exec("aaaaaaabcccccc");
   <tr><td>\W</td><td>
     匹配一个非单字字符，等价于[^a-zA-Z0-9_]。
   </td></tr>
-  <tr><td>\W</td><td>
-    匹配一个非单字字符，等价于[^a-zA-Z0-9_]。
-  </td></tr>
 </table>
  
 
