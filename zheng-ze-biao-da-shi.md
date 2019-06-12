@@ -52,6 +52,7 @@ regexp.exec("aaaaaaabcccccc");
   </td></tr>
   <tr><td>(?:x)</td><td>
     匹配x但是不记住匹配项，这种叫做非捕获括号。<br/>
+    "foofoofoo".
     /(?:foo)+/，这个可以匹配foofoofoo
   </td></tr>
   <tr><td>x(?=y)</td><td>
