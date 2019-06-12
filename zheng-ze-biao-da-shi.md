@@ -48,7 +48,6 @@ regexp.exec("aaaaaaabcccccc");
   </td></tr>
   <tr><td>(x)</td><td>
     匹配x并且记住匹配项，括号()被称为捕获括号。
-    匹配除换行符之外的任意其他字符
   </td></tr>
   <tr><td>x(?=y)</td><td>
     先行断言，匹配x仅仅当x后面紧跟y。<br/>
