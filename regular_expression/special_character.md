@@ -1,17 +1,4 @@
-# 正则表达式
-
-[Javascript正则表达式](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide/Regular_Expressions)
-
-## 简单模式
-
-无特殊字符的字符串匹配
-
-```javascript
-var regexp = new RegExp("abc");
-regexp.exec("aaaaaaabcccccc");
-```
-
-## 特殊字符
+# Special Character(特殊字符)
 
 <table>
   <tr></tr>

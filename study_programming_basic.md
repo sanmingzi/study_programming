@@ -10,10 +10,6 @@ integer, fload, double, string, array, map, set, list, queue, collection
 
 ### Constant Variable
 
-### Value Type / Reference Type
-
-http://www.tutorialsteacher.com/csharp/csharp-value-type-and-reference-type
-
 ### Static Type / Dynamic Type
 
 ```
@@ -22,7 +18,7 @@ static type: You must specify the type when define a variable. Such as C, C++, J
 dynamic type: The type is associated with run-time. Such as Ruby, Python, Javascript.
 ```
 
-### Strong type / Weak type
+### Strong Type / Weak Type
 
 ```
 strong type: The language will not implicit the type of variable. When check the type is not match, it will raise ane exception. Such as Java, C#, Ruby.
@@ -32,11 +28,13 @@ weak type: Fox example, The language tries to implicit conversion from strings t
 
 ### Type Conversion (类型转换)
 
-### Type Derivation (类型推导)
-
 ```
 dynamic language use this way to derivation the type of a variable.
 ```
+
+### Value Type / Reference Type (值类型 / 引用类型)
+
+[value type / reference type](http://www.tutorialsteacher.com/csharp/csharp-value-type-and-reference-type)
 
 ## Random Number
 
@@ -46,7 +44,7 @@ https://www.tutorialspoint.com/ruby/ruby_if_else.htm
 
 - if/else
 - case/when
-- .. ? .. : ..
+- condition ? value1 : value2
 
 ## Loop
 
@@ -67,6 +65,40 @@ https://www.tutorialspoint.com/ruby/ruby_if_else.htm
 
 https://zh.wikipedia.org/wiki/%E6%B1%89%E8%AF%BA%E5%A1%94
 
+## Object
+
+### Variable in Object
+
+- variable of object
+- variable of class
+- constant variable of object
+- constant variable of class
+- static variable of object
+- static variable of class
+
+### Function in Object
+
+- method of object
+- method of class
+- virtual method
+- method from parent
+- private method
+- protected method
+- public method
+
 ## File
+
+- create
+- delete
+- show
+- search
+- edit(insert / append)
+- copy
+- move
+
+## Input / Output
+
+- console
+- file
 
 ## Event
